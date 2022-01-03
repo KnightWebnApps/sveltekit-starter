@@ -1,4 +1,4 @@
-import {ApplicationError} from '/domain/core/error';
+import {ApplicationError} from '$lib/domain/core/error';
 
 /** @type {import('@sveltejs/kit').HandleError} */
 export async function handleError({ error }) {
